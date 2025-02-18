@@ -30,7 +30,25 @@ obo_score_weights:
     max_impact: 1
 ontologies:
   custom:
-    - id: omo
+    - id: tmp
+      mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
+    - id: pride_cv
+      mirror_from: https://raw.githubusercontent.com/PRIDE-Archive/pride-ontology/master/pride_cv.owl
+      title: "Proteomics Identification Database"
+      contact:
+        email: nithu@ebi.ac.uk
+        label: Nithu Sara John
+        orcid: 0000-0002-4823-6210
+        github: nithujohn
+      description: The PRIDE database is a public repository for proteomics data, enabling storage, sharing, and analysis of mass spectrometry-based proteomics experiments.
+      domain: chemistry and biochemistry
+      homepage: https://github.com/PRIDE-Archive/pride-ontology
+      products:
+        - id: pride_cv.owl
+      tracker: https://github.com/PRIDE-Archive/pride-ontology/issues
+      license:
+        url: https://creativecommons.org/publicdomain/zero/1.0/
+        label: CC0 4.0
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
