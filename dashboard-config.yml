@@ -48,7 +48,7 @@ ontologies:
       tracker: https://github.com/PRIDE-Archive/pride-ontology/issues
       license:
         url: https://creativecommons.org/publicdomain/zero/1.0/
-        label: CC0 4.0
+        label: CC BY 4.0
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
