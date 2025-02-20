@@ -1,0 +1,4 @@
+Level	Rule Name	Subject	Property	Value
+WARN	missing_definition	obo:TOSO_0000000	IAO:0000115	
+WARN	missing_xrefs	obo:TOSO_0000000	oboInOwl:hasDbXref	
+INFO	missing_superclass	obo:TOSO_0000000	rdfs:subClassOf	
