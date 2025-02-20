@@ -49,6 +49,23 @@ ontologies:
       license:
         url: https://creativecommons.org/licenses/by/4.0/
         label: CC BY 4.0
+    - id: toso
+      mirror_from: https://raw.githubusercontent.com/Tree-of-Sex/ToS-Ontology/main/toso.owl
+      title: "Tree of Sex Ontology"
+      contact:
+        email: cs43@sanger.ac.uk
+        label: Cibele G Sotero Caio
+        orcid: 0000-0002-3112-0000
+        github: ccaio
+      description: The Tree of Sex Ontology (TOSO) covers any trait related to reproduction used by the Tree of Sex Consortium.
+      domain: biological system
+      homepage: https://github.com/Tree-of-Sex/ToS-Ontology/wiki
+      products:
+        - id: toso.owl
+      tracker: https://github.com/Tree-of-Sex/ToS-Ontology/issues
+      license:
+        url: https://creativecommons.org/licenses/by/4.0/
+        label: CC BY 4.0
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
