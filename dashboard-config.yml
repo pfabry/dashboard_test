@@ -66,6 +66,23 @@ ontologies:
       license:
         url: https://creativecommons.org/licenses/by/4.0/
         label: CC BY 4.0
+    - id: olas
+      mirror_from: https://raw.githubusercontent.com/OLAS-ontology/OLAS/refs/heads/master/olas.owl
+      title: "Ontology of Laboratory Animal Science"
+      contact:
+        email: zhengj2007@gmail.com
+        label: Jie Zheng
+        orcid: 0000-0002-2999-0103
+        github: zhengj2007
+      description: The OLAS is a community-based biomedical ontology for ontologically representing entities and their relationships in laboratory animal science.
+      domain: investigations
+      homepage: https://github.com/OLAS-ontology/OLAS
+      products:
+        - id: olas.owl
+      tracker: https://github.com/OLAS-ontology/OLAS/issues
+      license:
+        url: https://creativecommons.org/licenses/by/4.0/
+        label: CC BY 4.0
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
