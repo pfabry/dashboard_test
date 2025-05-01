@@ -1,4 +1,6 @@
 Level	Rule Name	Subject	Property	Value
+WARN	duplicate_label_synonym	obo:PRIDE_0000675	oboInOwl:hasExactSynonym	sample name
+WARN	duplicate_label_synonym	obo:PRIDE_0000676	oboInOwl:hasExactSynonym	project name
 WARN	missing_xrefs	obo:PRIDE_0000000	oboInOwl:hasDbXref	
 WARN	missing_xrefs	obo:PRIDE_0000001	oboInOwl:hasDbXref	
 WARN	missing_xrefs	obo:PRIDE_0000002	oboInOwl:hasDbXref	
@@ -196,5 +198,3 @@ WARN	missing_xrefs	obo:PRIDE_0000195	oboInOwl:hasDbXref
 WARN	missing_xrefs	obo:PRIDE_0000196	oboInOwl:hasDbXref	
 WARN	missing_xrefs	obo:PRIDE_0000197	oboInOwl:hasDbXref	
 WARN	missing_xrefs	obo:PRIDE_0000198	oboInOwl:hasDbXref	
-WARN	missing_xrefs	obo:PRIDE_0000199	oboInOwl:hasDbXref	
-WARN	missing_xrefs	obo:PRIDE_0000200	oboInOwl:hasDbXref	
